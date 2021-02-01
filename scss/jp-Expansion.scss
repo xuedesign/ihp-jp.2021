@@ -28,7 +28,7 @@
 * @Language   Taiwan
 * @Author     tachimoma <hello@xuedesign.tw>
 * @copyright  2020 xuedesign studio
-* @version    v1.0- 202010
+* @version    v1.0- 202102
 *
 **/
 
@@ -38,7 +38,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-family: "Noto Serif TC";
+	font-family: "Noto Serif JP";
 	font-weight: 600}
 .sf-menu li{ position: relative}
 .sf-menu ul{
@@ -143,7 +143,7 @@
 	border-left-color: white}
 
 
-/* 首頁Banner滑動 Flickity v2.2.1 ==========================*/
+/* トップページBanner滑動 Flickity v2.2.1 ==========================*/
 .flickity-enabled { position: relative}
 .flickity-enabled:focus { outline: none; }
 .flickity-viewport {
@@ -269,7 +269,7 @@
     display: block;
     width: 100%;
     padding-bottom: 20px;
-    font-family: "Noto Serif TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family: "Noto Serif JP", sans-serif;
     font-size: 4rem;
     line-height: 5rem;
     color: #fff;
@@ -281,7 +281,7 @@
     padding: 10px 20px;
     border: none;
     background: transparent;
-    font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Noto Sans JP", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 2.5rem;
     line-height: 4rem;
     color: #fff;
@@ -294,7 +294,7 @@
 .lightbox .form-send{
     padding: 10px 20px;
     /*margin-left: 15px;*/
-    font-family:"Noto Sans TC", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
+    font-family:"Noto Sans JP", "Microsoft JhengHei","PingFangTC-Regular", "Arial", "Helvetica", sans-serif;
     font-size: 2rem;
     letter-spacing: 3px;
     color: #fff;
@@ -363,7 +363,7 @@
 #tabs-title li:last-child{
     border-right: none}
 #tabs-title a { 
-    font-family: "Noto Serif TC";
+    font-family: "Noto Serif JP";
     font-weight: 600;
     font-size: 2.3rem; 
     color:#C4C4C4; 
@@ -394,7 +394,7 @@
 .tabs-content details:hover{
     cursor: pointer}
 .tabs-content summary{
-    font-family: "Noto Serif TC";
+    font-family: "Noto Serif JP";
     font-weight: 600;
     letter-spacing: 2px;
     color: #424242;}
