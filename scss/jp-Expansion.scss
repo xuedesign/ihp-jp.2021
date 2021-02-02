@@ -57,9 +57,12 @@
 .sf-menu ul ul {
 	top: 0;
 	left: 100%}
+.sf-menu ul#oo{
+    top:56px;
+    left: -74%}      
 .sf-menu ul ul#ooo{
 	top: 0;
-	left: -118%}
+	left: -100%}
 
 /*** DEMO SKIN ***/
 .sf-menu {
@@ -80,8 +83,8 @@
 	/*border-top: 1px solid rgba(255,255,255,.5);*/
 	color: #fff;
 	font-size: 2rem;
-	letter-spacing: 1px;
-	padding: 1.8rem 5.5rem;
+	letter-spacing: 0;
+	padding: 1.8rem 3.5rem;
 	text-decoration: none;
 	zoom: 1; /* IE7 */}
 .sf-menu li li a,
@@ -143,7 +146,7 @@
 	border-left-color: white}
 
 
-/* トップページBanner滑動 Flickity v2.2.1 ==========================*/
+/* トップBanner滑動 Flickity v2.2.1 ==========================*/
 .flickity-enabled { position: relative}
 .flickity-enabled:focus { outline: none; }
 .flickity-viewport {

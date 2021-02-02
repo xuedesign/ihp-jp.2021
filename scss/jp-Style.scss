@@ -245,7 +245,7 @@ nav{
     --mm-color-text: #222;
     --mm-color-button: #4bb5ef} */
 
-/*＝＝＝ トップページbanner ＝＝＝*/
+/*＝＝＝ トップbanner ＝＝＝*/
 .banner-main{
     display: block;
     position: relative;
@@ -648,7 +648,7 @@ summary.nowin{
     text-align: justify}     
 
 /*
-========== 本所簡介==========
+========== 本研究所の紹介==========
 */
 #box-about a,
 #box-about a:visited,
@@ -818,7 +818,7 @@ summary.nowin{
     font-weight: bold}
 
 /*
-========== 研究室與工作室==========
+========== 研究室とスタジオ==========
 */
 .other-links{
     margin-top: 30px}
@@ -1079,7 +1079,7 @@ summary.nowin{
     float: right}
 
 /*
-========== 學術資源==========
+========== 施設とデータベース案内==========
 */
 #academic-main{
     display: block;
@@ -1125,7 +1125,7 @@ summary.nowin{
     color:#3E3E3E}
 
 /*
-========== 人員名錄==========
+========== 研究スタッフ==========
 */
 #box-people{
     display: block;
@@ -1226,7 +1226,7 @@ summary.nowin{
 .staff-team{
     text-align: center}
 
-/*目錄檢索*/
+/*ディレクトル検索*/
 .catlog-number{ 
     width: 8%;
     text-align: center;}
@@ -1435,7 +1435,7 @@ table.bt.bt--no-header tbody td::before {
     text-decoration: underline}
 
 /*
-========== 交流研習 ==========
+========== 交流と演習 ==========
 */   
 #box-outreach{
     display: block;
@@ -1548,7 +1548,7 @@ table.bt.bt--no-header tbody td::before {
     color: #c42a2f;
     padding-right: 15px}
 
-/*史語藝廊*/
+/*史語ギャラリー*/
 #gallery-list{
     display: flex;
     flex-wrap: wrap;
@@ -1595,7 +1595,7 @@ table.bt.bt--no-header tbody td::before {
     box-sizing: border-box}
 
 /*
-========== 出版品 ==========
+========== 出版物 ==========
 */   
 .newbook-list{
     display: block;
@@ -1925,7 +1925,7 @@ table.bt.bt--no-header tbody td::before {
     vertical-align: text-top;
     margin: -1px 5px 0 0}
 
-/*專書內容頁*/ 
+/*著書內容頁*/ 
 #book-summary{
     display: flex;
     flex-wrap: wrap;
@@ -2296,7 +2296,7 @@ input.checkme:checked~div.showme{
     background-color:#e9e9e9}
 
 /*
-========== トップページ ==========
+========== トップ ==========
 */
 .box-index{
     display: flex;
@@ -2310,7 +2310,7 @@ input.checkme:checked~div.showme{
     display: block;
     width: 32%}
 
-/*トップページ學術活動區*/ 
+/*トップ研究活動區*/ 
 .box-indextitle{
     display: flex;
     width: 100%;
@@ -2472,7 +2472,7 @@ input.checkme:checked~div.showme{
 .btn_reg a:hover{
     background: #941a1a}
 
-/*トップページ最新消息*/
+/*トップお知らせ*/
 #hotnews{
     display: block;
     width: 100%;
