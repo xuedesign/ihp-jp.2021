@@ -818,3 +818,9 @@ header,
     display: none} 
 
 }
+
+@media(max-width:321px){
+    #gallery-view li{
+        width: 270px;
+        height: 270px}
+    }
