@@ -594,7 +594,9 @@ summary.nowin{
     font-size: 2.7rem;
     line-height: 3.7rem;
     letter-spacing: 1px;
-    color: #A51C30}
+    color: #A51C30;
+    padding-left: 16px;
+    text-indent: -16px;}
 #page-title h3::before{
     content:url(../images/dot-ttitle.svg);
     vertical-align: middle;
@@ -1251,10 +1253,10 @@ summary.nowin{
     width: 12%}
 .catlog-page{
     width: 15%;
-    text-align: center;}
+    text-align: left;}
 .catlog-writer{
     width: 12%;
-    text-align: center}
+    text-align: left}
 .catlog-date{
     width: 10%;
     text-align: center}
@@ -1319,7 +1321,7 @@ table.bt.bt--no-header tfoot td::before,
 table.bt.bt--no-header tbody td::before {
     display: none}
   
-@media only screen and (max-width: 568px){
+@media only screen and (max-width:880px){
 .two-axis td,
 .fellows-name,
 .fellows-note,
@@ -1706,6 +1708,9 @@ table.bt.bt--no-header tbody td::before {
     display: block;
     width: 100%;
     margin-top: 30px}
+.asiamojor-note{
+    padding-left: 58px; 
+    text-indent: -28px}
 .book-thumbnail{
     display: flex;
     flex-wrap: wrap;
@@ -1733,7 +1738,7 @@ table.bt.bt--no-header tbody td::before {
 .book-thumbnail p{
     line-height: 2.5rem;
     padding-bottom: 5px;
-    word-break: break-all}
+    word-break: normal}
 .book-thumbnail a{
     color: #3E3E3E;
     text-decoration: none}
@@ -1811,6 +1816,40 @@ table.bt.bt--no-header tbody td::before {
 #book-toolbar a.mybtn{
     letter-spacing: 1px}
 
+#bookbar-search{
+    margin: 15px 8px 0 0;
+    padding: 0 8px;
+    border:1px solid #4d4d4d;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    text-decoration: none}
+#bookbar-search input{
+    border: none;
+    font-size: 1.5rem;
+    color: #4d4d4d}
+#bookbar-search input:focus{
+    outline:#ebada8 solid 3px;
+    background: rgba(61, 61, 61, .15)}
+#bookbar-search .toolbar-btn{
+    background-image: url(../images/pot-booksearch.svg);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0;
+    border: none;      
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
+    text-indent: -999px;
+    opacity: .5;}
+#bookbar-search .toolbar-btn:hover{
+    opacity: .9}
+#bookbar-search label,
+#toolbar-search label{ display:none}  
+
 #publications-main > .two-axis a{
     color:#333;
     text-decoration: none}
@@ -1826,7 +1865,7 @@ table.bt.bt--no-header tbody td::before {
     opacity: .7;
     margin-left: 8px;
     vertical-align: text-top} */
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 880px){
     #publications-main > .two-axis a{
         color: rgb(252, 218, 218);
         text-decoration: none}
@@ -1839,12 +1878,12 @@ table.bt.bt--no-header tbody td::before {
 }
 
 .book-time{
-    width: 15%;
+    width: 12%;
     text-align: center}
 .book-auther{
     width: 25%}
 .book-price{
-    width: 15%}
+    width: 23%}
 
 /*期刊*/
 .publsit-type01 li{
@@ -2112,7 +2151,8 @@ table.bt.bt--no-header tbody td::before {
     height: 19px;
     vertical-align: sub;
     margin-right: 10px}
-#book-catalog h4{
+#book-catalog h4,
+.tabs-content h4{
     display: inline-block;
     padding: 1px 10px;
     border-radius: 5px;
@@ -2121,6 +2161,11 @@ table.bt.bt--no-header tbody td::before {
     font-weight: normal;
     color: #fff;
     margin: 15px 0 10px;}
+.tabs-content h4{
+    margin: 0 0 10px 22px}
+.tabs-content .book-catalog-main a{
+    text-decoration: none}
+    
 #book-catalog-list a.mybtn{
     padding: 4px 8px}
 .book-catalog-main li,
