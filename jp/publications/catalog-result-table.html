@@ -223,7 +223,7 @@
         
 
         <div id="container-two">
-            <!---側邊選單列-->
+            <!---側邊献立列-->
             <aside id="container-subnav">
                 <div id="subnav-title">
                     <div id="backhome"><a href="../../index.html" title="トップへ">トップ</a><span>&gt;</span><h2>出版物</h2></div>
@@ -279,7 +279,7 @@
                 
                     <div id="page-main">
                         <section id="box-publications">
-                            <div id="book-toolbar"><!--選單在該類別時，添加class="now-select"-->
+                            <div id="book-toolbar"><!--献立在該類別時，添加class="now-select"-->
                                 <a class="mybtn now-select" href="catalog.html" title="簡易檢索">簡易檢索</a>
                                 <a class="mybtn" href="catalog-advanced.html" title="進階檢索">進階檢索</a>
                             </div><!--//end #book-toolbar-->
@@ -288,22 +288,22 @@
                                 <div id="book-search">
                                     <form action="#" method="post">
                                         <div  id="search-keyword" class="box-search">
-                                            <h4>❙ 關鍵字：</h4>
-                                            <label for="keyword" style="display: none;">關鍵字：</label>
-                                            <input id="keyword" name="keyword" type="text" title="搜尋關鍵字" placeholder="請輸入要查詢的關鍵字" class="myinput incatalog">
+                                            <h4>❙ キーワード：</h4>
+                                            <label for="keyword" style="display: none;">キーワード：</label>
+                                            <input id="keyword" name="keyword" type="text" title="キーワード" placeholder="キーワード" class="myinput incatalog">
                                             <label for="search-type" style="display: none">類別</label>
                                             <select id="search-type" name="event-type" class="myselect search-type">
                                                 <option value="all" selected="selected">全部</option>
                                                 <option value="book-title"/>書名</option>
                                                 <option value="articles-title" />篇名</option>
-                                                <option value="author"/>作者</option>
+                                                <option value="author"/>著者</option>
                                                 <option value="summary">摘要</option>
                                                 <option value="keyword">關鍵詞</option>
                                             </select>
                                         </div>
 
                                         <div id="search-database" class="box-search">
-                                            <h4>❙ 查詢資料庫：（可複選）</h4>
+                                            <h4>❙ データベース：（可複選）</h4>
                                             <div id="selectall">
                                                 <input type="checkbox" id="sd-00" name="select_all" checked="checked" onclick="check_all(this,'sb')" />
                                                 <label for="sd-00">全部</label>
@@ -328,8 +328,8 @@
                                         </div>                                        
 
                                         <div id="formbtn">
-                                            <input type="reset" class="mybtn" value="清除重填"/>
-                                            <input type="button" class="mybtn catalog-send" value="送出查詢" onclick="location.href='catalog-result-table.html'"/>
+                                            <input type="reset" class="mybtn" value="リセット"/>
+                                            <input type="button" class="mybtn catalog-send" value="検索する" onclick="location.href='catalog-result-table.html'"/>
                                         </div>
                                                                                 
                                     </form>
@@ -340,7 +340,7 @@
                                         <label for="sort">排序</label>
                                         <select id="sort" name="sort" class="myselect">
                                             <option value="請選擇">請選擇</option>
-                                            <option value="author">作者</option>
+                                            <option value="author">著者</option>
                                             <option value="title">書.篇名</option>
                                             <option value="time">出版時間</option>
                                         </select>
@@ -366,7 +366,7 @@
                                             <th>書.篇名</th>
                                             <th>類別</th>
                                             <th>期別ページ碼</th>
-                                            <th>作者</th>
+                                            <th>著者</th>
                                             <th>出版時間</th>
                                         </tr>
                                     </thead>
@@ -546,7 +546,7 @@
 </div>
 
 
-<!---行動版選單-->
+<!---行動版献立-->
 <div id="menu">
     <ul>
         <li><span>掲示板</span>
