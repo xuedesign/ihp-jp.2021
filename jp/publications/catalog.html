@@ -281,8 +281,8 @@
                     <div id="page-main">
                         <section id="box-publications">
                             <div id="book-toolbar"><!--献立在該類別時，添加class="now-select"-->
-                                <a class="mybtn now-select" href="catalog.html" title="簡易檢索">簡易檢索</a>
-                                <a class="mybtn" href="catalog-advanced.html" title="進階檢索">進階檢索</a>
+                                <a class="mybtn now-select" href="catalog.html" title="簡易検索">簡易検索</a>
+                                <a class="mybtn" href="catalog-advanced.html" title="詳細検索">詳細検索</a>
                             </div><!--//end #book-toolbar-->
                             
                             <div id="publications-main">
@@ -294,8 +294,8 @@
                                             <input id="keyword" name="keyword" type="text" title="キーワード" placeholder="キーワード" class="myinput incatalog">
                                             <label for="search-type" style="display: none">類別</label>
                                             <select id="search-type" name="event-type" class="myselect search-type">
-                                                <option value="all" selected="selected">全部</option>
-                                                <option value="book-title"/>書名</option>
+                                                <option value="all" selected="selected">すべて</option>
+                                                <option value="book-title"/>书名</option>
                                                 <option value="articles-title" />篇名</option>
                                                 <option value="author"/>著者</option>
                                                 <option value="summary">摘要</option>
@@ -307,7 +307,7 @@
                                             <h4>❙ データベース：（可複選）</h4>
                                             <div id="selectall">
                                                 <input type="checkbox" id="sd-00" name="select_all" checked="checked" onclick="check_all(this,'sb')" />
-                                                <label for="sd-00">全部</label>
+                                                <label for="sd-00">すべて</label>
                                             </div>
                                             <ul id="fruits_container">
                                                 <li><input type="checkbox" id="sd-01" name="sb" value="著書" checked="checked">
@@ -329,8 +329,8 @@
                                         </div>                                        
 
                                         <div id="formbtn">
-                                            <input type="reset" class="mybtn" value="リセット"/>
-                                            <input type="button" class="mybtn catalog-send" value="検索する" onclick="location.href='catalog-result-table.html'"/>
+                                            <input type="reset" class="mybtn" value="クリア"/>
+                                            <input type="button" class="mybtn catalog-send" value="検索開始" onclick="location.href='catalog-result-table.html'"/>
                                         </div>
                                                                                 
                                     </form>
@@ -393,7 +393,7 @@
                 <label for="top-search" class="search-title">ウェブサイト検索</label>
                 <input id="top-search" name="keyword" type="text" title="キーワード" placeholder="キーワード..." class="form-input">
                 <!--<button type="submit" class="form-send" value="送出搜尋">送出</button>-->
-                <input type="button" class="form-send" value="検索する" onclick="location.href='../search-result.html'"/>
+                <input type="button" class="form-send" value="検索開始" onclick="location.href='../search-result.html'"/>
             </form>
         </figcaption>
     </figure>
